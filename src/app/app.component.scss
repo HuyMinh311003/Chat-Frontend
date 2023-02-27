@@ -1,0 +1,108 @@
+//Container
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+//Toolbar
+.toolbar {
+  margin: 5px 0px;
+  width: 50%;
+  border-style: solid;
+  border-width: thin;
+  background-color: white;
+}
+
+.toolbar>div {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  margin: 10px;
+  height: 40px;
+  width: 38%;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+
+.send_input {
+  width: 82%;
+}
+
+.join_btn {
+  margin-top: 13px;
+}
+
+.send_btn {
+  background-color: cornflowerblue;
+  margin-top: 8px;
+}
+
+//Chatbox
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  width: 50%;
+  border-style: solid;
+  border-width: thin;
+  background-color: white;
+}
+
+.msg_container {
+  margin: 5px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.user {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.message {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 15px;
+  width: fit-content;
+  background-color: gainsboro;
+}
+
+//My Message
+.right_msg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.my_username {
+  margin-right: 10px;
+}
+
+.my_msg {
+  background-color: aqua;
+}
+
+//From User
+.from_me {
+  justify-content: flex-end;
+}
+
+.from_other {
+  justify-content: flex-start;
+}
+
+.from_me,
+.from_other {
+  margin: 5px 0px;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  word-break: break-all;
+}
